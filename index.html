@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile World Asansol - Premium Smartphone Store</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+        .hero-gradient {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+        }
+        .brand-gradient {
+            background: linear-gradient(to right, #0f3460 0%, #16213e 100%);
+        }
+        .offer-pulse {
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        body {
+            background-color: #121212;
+            color: #ffffff;
+        }
+        .bg-white, .bg-gray-50 {
+            background-color: #1e1e1e !important;
+            color: #ffffff !important;
+        }
+        .text-gray-900, .text-gray-700 {
+            color: #ffffff !important;
+        }
+        .text-gray-600 {
+            color: #b3b3b3 !important;
+        }
+        .border-gray-300 {
+            border-color: #333333 !important;
+        }
+        .bg-gray-100 {
+            background-color: #2d2d2d !important;
+        }
+        .bg-indigo-100 {
+            background-color: #2a3a5e !important;
+        }
+    </style>
+</head>
+<body class="font-sans bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0 flex items-center">
+                        <i data-feather="smartphone" class="h-8 w-8 text-indigo-600"></i>
+                        <span class="ml-2 text-xl font-bold text-gray-900">MOBILE WORLD ASANSOL</span>
+                    </div>
+                </div>
+                <div class="hidden md:ml-6 md:flex md:items-center md:space-x-8">
+                    <a href="#home" class="text-gray-900 hover:text-indigo-600 px-3 py-2 text-sm font-medium">Home</a>
+                    <a href="#brands" class="text-gray-900 hover:text-indigo-600 px-3 py-2 text-sm font-medium">Brands</a>
+                    <a href="#offers" class="text-gray-900 hover:text-indigo-600 px-3 py-2 text-sm font-medium">Offers</a>
+                    <a href="#contact" class="text-gray-900 hover:text-indigo-600 px-3 py-2 text-sm font-medium">Contact</a>
+                </div>
+                <div class="flex items-center md:hidden">
+                    <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-controls="mobile-menu" aria-expanded="false">
+                        <i data-feather="menu"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-gradient text-white py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="md:flex items-center justify-between">
+                <div class="md:w-1/2 mb-10 md:mb-0" data-aos="fade-right">
+                    <h1 class="text-4xl md:text-5xl font-bold mb-6">Your One-Stop Destination for Premium Smartphones</h1>
+                    <p class="text-xl mb-8">Get the latest models at unbeatable prices with exclusive Puja festive offers!</p>
+                    <div class="flex space-x-4">
+                        <a href="#contact" class="bg-white text-indigo-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">Contact Us</a>
+                        <a href="#offers" class="border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-indigo-600 transition duration-300">View Offers</a>
+                    </div>
+                </div>
+                <div class="md:w-1/2" data-aos="fade-left">
+                    <img src="http://static.photos/technology/1200x630/42?dark" alt="Latest Smartphones" class="rounded-xl shadow-2xl border-4 border-yellow-500">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brands Section -->
+    <section id="brands" class="py-16 bg-gray-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Top Brands Available</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">We carry all major brands with the latest models in stock</p>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <!-- Samsung -->
+                <div class="bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300" data-aos="zoom-in">
+                    <div class="text-center">
+                        <div class="mx-auto h-16 w-16 flex items-center justify-center bg-blue-100 rounded-full mb-4">
+                            <i data-feather="star" class="h-8 w-8 text-blue-600"></i>
+                        </div>
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">SAMSUNG</h3>
+                        <p class="text-gray-600 text-sm">S24 ULTRA, S24 FE, S25, A36, A56, A26</p>
+                    </div>
+                </div>
+                
+                <!-- iPhone -->
+                <div class="bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="text-center">
+                        <div class="mx-auto h-16 w-16 flex items-center justify-center bg-gray-100 rounded-full mb-4">
+                            <i data-feather="apple" class="h-8 w-8 text-gray-600"></i>
+                        </div>
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">iPHONE</h3>
+                        <p class="text-gray-600 text-sm">17, 17 PRO, 17 PRO MAX, 16, 15, 13</p>
+                    </div>
+                </div>
+                
+                <!-- OPPO -->
+                <div class="bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="text-center">
+                        <div class="mx-auto h-16 w-16 flex items-center justify-center bg-green-100 rounded-full mb-4">
+                            <i data-feather="camera" class="h-8 w-8 text-green-600"></i>
+                        </div>
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">OPPO</h3>
+                        <p class="text-gray-600 text-sm">F31 PRO+, RENO 14, A5X, K13 TURBO PRO</p>
+                    </div>
+                </div>
+                
+                <!-- VIVO -->
+                <div class="bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="text-center">
+                        <div class="mx-auto h-16 w-16 flex items-center justify-center bg-purple-100 rounded-full mb-4">
+                            <i data-feather="music" class="h-8 w-8 text-purple-600"></i>
+                        </div>
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">VIVO</h3>
+                        <p class="text-gray-600 text-sm">V60, X200FE, V50FE, Y400, Y31</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-8 grid grid-cols-2 md:grid-cols-3 gap-8">
+                <!-- Techno -->
+                <div class="bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="text-center">
+                        <div class="mx-auto h-16 w-16 flex items-center justify-center bg-blue-100 rounded-full mb-4">
+                            <i data-feather="zap" class="h-8 w-8 text-blue-600"></i>
+                        </div>
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">TECHNO</h3>
+                        <p class="text-gray-600 text-sm">Latest models available</p>
+                    </div>
+                </div>
+                
+                <!-- Infinix -->
+                <div class="bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="text-center">
+                        <div class="mx-auto h-16 w-16 flex items-center justify-center bg-red-100 rounded-full mb-4">
+                            <i data-feather="battery-charging" class="h-8 w-8 text-red-600"></i>
+                        </div>
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">INFINIX</h3>
+                        <p class="text-gray-600 text-sm">Latest models available</p>
+                    </div>
+                </div>
+                
+                <!-- OnePlus -->
+                <div class="bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300" data-aos="zoom-in" data-aos-delay="600">
+                    <div class="text-center">
+                        <div class="mx-auto h-16 w-16 flex items-center justify-center bg-red-100 rounded-full mb-4">
+                            <i data-feather="plus" class="h-8 w-8 text-red-600"></i>
+                        </div>
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">ONEPLUS</h3>
+                        <p class="text-gray-600 text-sm">Latest models available</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Offers Section -->
+    <section id="offers" class="py-16 bg-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Puja Festive Deals</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Exclusive offers available for a limited time only</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Discount -->
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300 offer-pulse" data-aos="fade-up">
+                    <div class="text-center">
+                        <div class="mx-auto h-16 w-16 flex items-center justify-center bg-yellow-100 rounded-full mb-4">
+                            <i data-feather="percent" class="h-8 w-8 text-yellow-600"></i>
+                        </div>
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Special Discounts</h3>
+                        <p class="text-gray-600">Get exclusive Puja discounts on all models</p>
+                    </div>
+                </div>
+                
+                <!-- EMI -->
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300 offer-pulse" data-aos="fade-up" data-aos-delay="100">
+                    <div class="text-center">
+                        <div class="mx-auto h-16 w-16 flex items-center justify-center bg-green-100 rounded-full mb-4">
+                            <i data-feather="credit-card" class="h-8 w-8 text-green-600"></i>
+                        </div>
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Easy EMI Options</h3>
+                        <p class="text-gray-600">Flexible payment plans available</p>
+                    </div>
+                </div>
+                
+                <!-- Accessories -->
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300 offer-pulse" data-aos="fade-up" data-aos-delay="200">
+                    <div class="text-center">
+                        <div class="mx-auto h-16 w-16 flex items-center justify-center bg-blue-100 rounded-full mb-4">
+                            <i data-feather="gift" class="h-8 w-8 text-blue-600"></i>
+                        </div>
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Free Accessories</h3>
+                        <p class="text-gray-600">Get freebies with select models</p>
+                    </div>
+                </div>
+                
+                <!-- Exchange -->
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300 offer-pulse" data-aos="fade-up" data-aos-delay="300">
+                    <div class="text-center">
+                        <div class="mx-auto h-16 w-16 flex items-center justify-center bg-purple-100 rounded-full mb-4">
+                            <i data-feather="repeat" class="h-8 w-8 text-purple-600"></i>
+                        </div>
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Best Exchange Value</h3>
+                        <p class="text-gray-600">Top value for your old phone</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-16 bg-indigo-600 text-white rounded-xl p-8" data-aos="fade-up">
+                <div class="md:flex items-center justify-between">
+                    <div class="md:w-2/3 mb-6 md:mb-0">
+                        <h3 class="text-2xl font-bold mb-4">Limited Time Offer!</h3>
+                        <p class="text-lg">This Puja, gift yourself or your loved ones a brand-new smartphone from MOBILE WORLD ASANSOL – because you deserve the best!</p>
+                    </div>
+                    <div class="md:w-1/3 text-center md:text-right">
+                        <a href="#contact" class="inline-block bg-white text-indigo-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-gray-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Visit Us Today</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Get in touch for the best deals on smartphones</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12">
+                <div data-aos="fade-right">
+                    <div class="bg-gray-50 p-8 rounded-xl shadow-md">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-6">Contact Information</h3>
+                        
+                        <div class="space-y-6">
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 h-10 w-10 rounded-full bg-indigo-100 flex items-center justify-center">
+                                    <i data-feather="map-pin" class="h-5 w-5 text-indigo-600"></i>
+                                </div>
+                                <div class="ml-4">
+                                    <h4 class="text-sm font-semibold text-gray-900">Store Location</h4>
+                                    <p class="text-sm text-gray-600">MOBILE WORLD ASANSOL</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 h-10 w-10 rounded-full bg-indigo-100 flex items-center justify-center">
+                                    <i data-feather="phone" class="h-5 w-5 text-indigo-600"></i>
+                                </div>
+                                <div class="ml-4">
+                                    <h4 class="text-sm font-semibold text-gray-900">Call Us</h4>
+                                    <p class="text-sm text-gray-600">9749226670 / 7908045446</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 h-10 w-10 rounded-full bg-indigo-100 flex items-center justify-center">
+                                    <i data-feather="message-square" class="h-5 w-5 text-indigo-600"></i>
+                                </div>
+                                <div class="ml-4">
+                                    <h4 class="text-sm font-semibold text-gray-900">WhatsApp</h4>
+                                    <p class="text-sm text-gray-600">9749604599</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div data-aos="fade-left">
+                    <div class="bg-gray-50 p-8 rounded-xl shadow-md">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-6">Send Us a Message</h3>
+                        <form>
+                            <div class="mb-4">
+                                <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Your Name</label>
+                                <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-indigo-500 focus:border-indigo-500">
+                            </div>
+                            <div class="mb-4">
+                                <label for="phone" class="block text-sm font-medium text-gray-700 mb-1">Phone Number</label>
+                                <input type="tel" id="phone" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-indigo-500 focus:border-indigo-500">
+                            </div>
+                            <div class="mb-4">
+                                <label for="message" class="block text-sm font-medium text-gray-700 mb-1">Your Message</label>
+                                <textarea id="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-indigo-500 focus:border-indigo-500"></textarea>
+                            </div>
+                            <button type="submit" class="w-full bg-indigo-600 text-white py-3 px-4 rounded-lg font-semibold hover:bg-indigo-700 transition duration-300">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">MOBILE WORLD ASANSOL</h3>
+                    <p class="text-gray-400">Your trusted destination for the latest smartphones and accessories at the best prices in Asansol.</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-gray-400 hover:text-white transition duration-300">Home</a></li>
+                        <li><a href="#brands" class="text-gray-400 hover:text-white transition duration-300">Brands</a></li>
+                        <li><a href="#offers" class="text-gray-400 hover:text-white transition duration-300">Offers</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-white transition duration-300">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Connect With Us</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="h-10 w-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-indigo-600 transition duration-300">
+                            <i data-feather="facebook" class="h-5 w-5"></i>
+                        </a>
+                        <a href="#" class="h-10 w-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-400 transition duration-300">
+                            <i data-feather="twitter" class="h-5 w-5"></i>
+                        </a>
+                        <a href="#" class="h-10 w-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-pink-600 transition duration-300">
+                            <i data-feather="instagram" class="h-5 w-5"></i>
+                        </a>
+                        <a href="#" class="h-10 w-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-green-500 transition duration-300">
+                            <i data-feather="whatsapp" class="h-5 w-5"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2023 MOBILE WORLD ASANSOL. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true
+        });
+        feather.replace();
+    </script>
+</body>
+</html>
